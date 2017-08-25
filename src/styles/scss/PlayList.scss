@@ -1,0 +1,29 @@
+.PlayList {
+  position: absolute;
+  // overflow: scroll;
+  margin-left: 50%;
+  margin-top: 140px;
+  width: 50%;
+  .playlist-results {
+    background-color: white;
+    // width: 70%;
+    margin: 21px 50px;
+    height: 600px;
+    overflow: scroll;
+    .result {
+      border: 1px solid black;
+      margin: 10px;
+      h1 {
+        font-size: 26px;
+      }
+      h2 {
+        font-size: 18px;
+      }
+    }
+  }
+  .play-list-button {
+    @include button(green, darkgreen);
+    position: absolute;
+    bottom: 50px;
+  }
+}

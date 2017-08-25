@@ -1,0 +1,27 @@
+.PlayListForm {
+  position: fixed;
+  margin-top: 130px;
+  text-align: left;
+  font-size: 28px;
+  width: 50%;
+  .form {
+    background-color: $color-secondary;
+    width: 70%;
+    height: 600px;
+    box-sizing: border-box;
+    margin: 30px auto;
+    padding: 50px;
+    input {
+      font-size: 20px;
+      width: 100%;
+      margin: 20px auto;
+      display: block;
+      border: none;
+      border-radius: 5px;
+      padding: 5px;
+    }
+    button {
+      @include button(blue, navy);
+    }
+  }
+}

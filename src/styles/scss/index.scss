@@ -1,0 +1,36 @@
+$color-primary: #232323;
+$color-secondary: #787878;
+
+@mixin button($color, $colorHover) {
+  background-color: $color;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 30px;
+  padding: 8px 26px;
+  cursor: pointer;
+  margin-top: 20px;
+  &:hover {
+    background-color: $colorHover;
+  }
+}
+
+@import './App';
+@import './Navbar';
+@import './PlayList';
+@import './PlayListForm';
+@import './PlayListItem';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: helvetica, sans-serif;
+  background-color: $color-primary;
+}
+
+.body-container {
+  display: flex;
+  & > div {
+    flex-basis: 50%;
+  }
+}
