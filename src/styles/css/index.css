@@ -32,7 +32,6 @@
     color: white; }
 
 .PlayList {
-  position: absolute;
   margin-left: 50%;
   margin-top: 140px;
   width: 50%; }
@@ -58,7 +57,7 @@
     cursor: pointer;
     margin-top: 20px;
     position: absolute;
-    bottom: 50px; }
+    top: 10px; }
     .PlayList .play-list-button:hover {
       background-color: darkgreen; }
 

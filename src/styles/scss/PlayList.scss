@@ -1,5 +1,5 @@
 .PlayList {
-  position: absolute;
+  // position: absolute;
   // overflow: scroll;
   margin-left: 50%;
   margin-top: 140px;
@@ -24,6 +24,6 @@
   .play-list-button {
     @include button(green, darkgreen);
     position: absolute;
-    bottom: 50px;
+    top: 10px;
   }
 }
